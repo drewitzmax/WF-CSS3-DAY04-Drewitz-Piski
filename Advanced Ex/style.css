@@ -9,7 +9,22 @@ header {
     font-size: 20pt;
     padding: 10px 0; }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  main img {
+    width: 30%;
+    margin: 10px; }
+
 footer {
   text-align: center; }
+
+@media screen and (max-width: 960px) {
+  main img {
+    width: 45%; } }
+@media screen and (max-width: 480px) {
+  main img {
+    width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */

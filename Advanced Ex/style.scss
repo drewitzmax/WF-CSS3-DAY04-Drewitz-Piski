@@ -13,9 +13,30 @@ header{
     }
 }
 main{
-
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        width:30%;
+        margin: 10px;
+    }
 }
 
 footer{
     text-align: $alignHeaderFooter;
 }
+
+@media screen and (max-width: 960px){
+        main{
+            img{
+                width:45%
+            }
+        }
+    }
+@media screen and (max-width: 480px){
+        main{
+            img{
+                width:90%
+            }
+        }
+    }
