@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Amazon, just better</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<header id="header" class="">
-		<div class ="logo">
-			<img src="output-onlinepngtools.png" alt="">
-			<select name="Alle" >
+	<header>
+		<div class="searchbar">
+			<img src="output-onlinepngtools.png" alt="" id="logo">
+			<select name="Alle" id="searchOptions">
+				<option value="Alle" selected disabled></option>
 				<option value="">Drugs</option>
 				<option value="">Hookers</option>
 				<option value="">Alcohol</option>
 				<option value="">Cars</option>
 			</select>
-			<input type="text" name="searchbar" value="">
-			<input type="button" name="search" value="search">
+			<input type="text" name="searchbar" value="" id="searchField">
+			<input type="button" name="search" value="search" id="searchCommit">
 		</div>
 		<nav>
 			<ul>
@@ -29,15 +32,94 @@
 				<li><a href="" title=""></a>Kuche, Haushalt & Wohnen</li>
 				<li><a href="" title=""></a>Elektronik & Foto</li>
 				<li><a href="" title=""></a>Computer</li>
-			</ul>			
-			<input type="button" name="Language" value="EN">
-			<input type="button" name="Account" value="Hallo Max">
-			<input type="button" name="Bestellungenn" value="Bestellungen">
-			<input type="button" name="Einkaufswagen" value="Prime">
-			<input type="button" name="My prime" value="Einkaufswagen">
-
+			</ul>
+			<div class="buttons">
+				<input type="button" name="Language" value="EN">
+				<input type="button" name="Account" value="Hallo Max">
+				<input type="button" name="Bestellungenn" value="Bestellungen">
+				<input type="button" name="Einkaufswagen" value="Prime">
+				<input type="button" name="My prime" value="Einkaufswagen">
+			</div>
 		</nav>
-	</header><!-- /header -->
-	
+	</header>
+	<main>
+		<div id="addSpacer"></div>
+		<div id="contentWrapper">
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+			<div class="productCard">
+				<h1>header</h1>
+				<img src="example.jpg" alt="">
+				<p class="price">33,99&euro <span class="oldPrice"></span></p>
+				<a href="#">Some Link</a>
+			</div>
+		</div>
+	</main>
+	<div id="topLink"><a href="#">Zurueck zum Anfang</a></div>
+
+	<footer>
+		<ul>
+			<a href="#"><li>Unsere AGB</li></a>
+			<a href="#"><li>Datenschutzerklaerung</li></a>
+			<a href="#"><li>Impressum</li></a>
+			<a href="#"><li>Hinweise zu Cookies</li></a>
+			<a href="#"><li>Hinweise zu interessenbasierter Werbung</li></a>
+			<li id="copyright">&COPY 1998-2019 Amazon.com Inc. oder Tochtergesellschaften</li>
+		</ul>
+	</footer>
+
 </body>
+
 </html>
