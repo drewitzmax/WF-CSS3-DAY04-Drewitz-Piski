@@ -68,12 +68,14 @@ body {
       flex-wrap: wrap; }
       body main #contentWrapper .productCard {
         width: 20%;
+        min-width: 250px;
         height: 350px;
         padding: 10px;
         margin: 20px;
         background-color: white; }
         body main #contentWrapper .productCard img {
           height: 200px;
+          max-width: 100%;
           display: block;
           margin: 10px auto; }
   body #topLink {
