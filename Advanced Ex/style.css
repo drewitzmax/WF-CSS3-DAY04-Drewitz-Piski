@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  text-align: center;
+  background-color: aqua; }
+  header p {
+    font-size: 20pt;
+    padding: 10px 0; }
+
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

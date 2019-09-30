@@ -1,0 +1,21 @@
+$alignHeaderFooter: center;
+
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    text-align: $alignHeaderFooter;
+    background-color: aqua;
+    p{
+        font-size: 20pt;
+        padding: 10px 0;
+    }
+}
+main{
+
+}
+
+footer{
+    text-align: $alignHeaderFooter;
+}
